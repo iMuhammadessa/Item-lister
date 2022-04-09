@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+ul {
+    list-style: none;
+}
+ul li {
+    padding: .7rem;
+    margin: 5px 0;
+    border: 1px solid #dbd9d9;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background: #444;
+}
+
+.error {
+    background: orangered;
+    color: #fff;
+    padding: 5px;
+    margin: 5px;
+}
